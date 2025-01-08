@@ -6,30 +6,33 @@ This project provides a local ChatGPT implementation using Llama3.2-Vision. It r
 
 ## Setup Instructions
 
-### Prerequisites:
-- Linux system
-- Python 3.11 or later installed
+### Step 1: Clone the Repository
+First, clone the repository to your local machine:
+```bash
+git clone https://github.com/KhuramMurad/local-ChatGPT.git
+cd local-ChatGPT
+```
 
-### Step 1: Create a Virtual Environment
-First, create and activate a virtual environment to isolate the project:
+### Step 2: Create a Virtual Environment
+Create and activate a virtual environment to isolate the project:
 ```bash
 python3 -m venv myenv
 source myenv/bin/activate
 ```
 
-### Step 2: Install Ollama and Dependencies Inside the Virtual Environment
+### Step 3: Install Ollama and Dependencies Inside the Virtual Environment
 With the virtual environment activated, install Ollama and other dependencies:
 ```bash
 pip install pydantic==2.10.1 chainlit ollama
 ```
 
-### Step 3: Pull Llama3.2-Vision Model
+### Step 4: Pull Llama3.2-Vision Model
 Download the Llama3.2-Vision model to use with Ollama:
 ```bash
 ollama pull llama3.2-vision
 ```
 
-### Step 4: Run the Application
+### Step 5: Run the Application
 Run the Chainlit app:
 ```bash
 chainlit run app.py -w
@@ -65,5 +68,3 @@ To remove the setup:
 3. Optionally, delete any remaining project files.
 
 ---
-
-This `README.md` file should now help others set up and run the project, ensuring everything is contained within the virtual environment for ease of management.
