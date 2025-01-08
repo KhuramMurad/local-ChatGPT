@@ -1,5 +1,3 @@
-Here's a detailed `README.md` for your project:
-
 ---
 
 # Local ChatGPT with Llama3.2-Vision
